@@ -1,3 +1,5 @@
+#NOT READY YET!! this is just the forked project
+
 #STM32F3-Discovery Application Template
 This package is for use when compiling programs for STM32F30x ARM microcontrollers using arm-none-eabi-gcc (I'm using the [gcc-arm-embedded](https://launchpad.net/gcc-arm-embedded) toolchain). The Makefile in the main directory will call the Make file in the Libraries directory, thereby automatically building the STM peripheral library. However, running 'make clean' will not affect the peripherals library (the same command can be run from the Libraries directory to do this).
 
